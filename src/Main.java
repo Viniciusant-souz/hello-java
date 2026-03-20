@@ -6,14 +6,14 @@ public class Main {
         double alt = 1.65;
         boolean estudando = true;
         String nome = "Vinícius";
-        String cidade = "Platina/SP";
+        String cid = "Platina/SP";
         double salario = 12000;
 
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Altura: " + alt);
         System.out.println("Estudando: " + estudando);
-        System.out.println("Eu mora na cidade de " + cidade + ", e o salário desejado é R$" + salario);
+        System.out.println("Eu mora na cidade de " + cid + ", e o salário desejado é R$" + salario);
 
 
 
