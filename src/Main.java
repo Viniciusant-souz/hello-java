@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         int idade = 30;
-        double altura = 1.65;
+        double alt = 1.65;
         boolean estudando = true;
         String nome = "Vinícius";
         String cidade = "Platina/SP";
@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
-        System.out.println("Altura: " + altura);
+        System.out.println("Altura: " + alt);
         System.out.println("Estudando: " + estudando);
         System.out.println("Eu mora na cidade de " + cidade + ", e o salário desejado é R$" + salario);
 
