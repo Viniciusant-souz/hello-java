@@ -14,7 +14,7 @@ public class Main {
 
        double peso = 70.0;
        double altura = 1.60;
-       double imc = (double) peso / (double) (altura*altura);
+       double imc = peso / (altura*altura);
 
         System.out.println("Soma: " + soma);
         System.out.println("Subtrção: " + subtracao);
@@ -24,6 +24,10 @@ public class Main {
         System.out.println("Divisão Decimal: " + divisaoDecimal);
 
         System.out.println("Meu IMC é: " + imc);
+
+        System.out.printf("Meu IMC é %.2f", imc);
+
+
 
 
 
