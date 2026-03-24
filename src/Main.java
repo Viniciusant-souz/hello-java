@@ -1,41 +1,20 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-       int a = 10;
-       int b = 3;
+    public static void main (String[] args) {
+        double nota = 4.9999;
 
-       int soma = a + b;
-       int subtracao = a - b;
-       int divisao = a / b;
-       int multiplicacao = a * b;
-       int resto = a % b;
-       double divisaoDecimal = (double) a / b;
-
-       double peso = 70.0;
-       double altura = 1.60;
-       double imc = peso / (altura*altura);
-
-        System.out.println("Soma: " + soma);
-        System.out.println("Subtrção: " + subtracao);
-        System.out.println("Divisão: " + divisao);
-        System.out.println("Multiplicação: " + multiplicacao);
-        System.out.println("Resto: " + resto);
-        System.out.println("Divisão Decimal: " + divisaoDecimal);
-
-        System.out.println("Meu IMC é: " + imc);
-
-        System.out.printf("Meu IMC é %.2f", imc);
-
-
-
-
-
-
-
-
-
-
-
+        if (nota >= 7){
+            System.out.println("Aluno aprovado com nota " + nota);
         }
+
+        else if (nota <7 && nota >= 5) {
+            System.out.println("Aluno de Recuperação com nota " + nota);
+        }
+
+        else {
+            System.out.println("Aluno reprovado com nota " + nota);
+        }
+
     }
+}
