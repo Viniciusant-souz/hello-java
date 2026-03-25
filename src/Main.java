@@ -2,29 +2,25 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main (String[] args) {
-        System.out.println("=== TABELA VERDADE ===");
-        System.out.println();
 
-        // AND (&&)
-        System.out.println("=== AND (&&) ===");
-        System.out.println("true && true = " + (true && true));
-        System.out.println("true && false = " + (true && false));
-        System.out.println("false && true = " + (false && true));
-        System.out.println("false && false = " + (false && false));
-        System.out.println();
+        String usuario = "adminn";
+        String senha = "12345";
 
-        // OR (||)
-        System.out.println("=== OR (||) ===");
-        System.out.println("true || true = " + (true || true));
-        System.out.println("true || false = " + (true || false));
-        System.out.println("false || true = " + (false || true));
-        System.out.println("false || false = " + (false || false));
-        System.out.println();
+        if (usuario.equals("admin") && senha.equals("1234")){
+            System.out.println("Acesso autorizado para o usuário " + usuario);
+        }
 
-        // NOT (!)
-        System.out.println("=== NOT (!) ===");
-        System.out.println("!true = " + (!true));
-        System.out.println("!false = " + (!false));
+        else if (!usuario.equals("admin") && !senha.equals("1234")){
+            System.out.println("Usuário e Senha Incorretos ");
+        }
+
+        else if (usuario.equals("admin")) {
+            System.out.println("Senha Incorreta");
+
+        }
+        else{
+            System.out.println("Usuário incorreto");
+        }
 
     }
 }
