@@ -2,19 +2,29 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main (String[] args) {
-        double nota = 4.9999;
+        System.out.println("=== TABELA VERDADE ===");
+        System.out.println();
 
-        if (nota >= 7){
-            System.out.println("Aluno aprovado com nota " + nota);
-        }
+        // AND (&&)
+        System.out.println("=== AND (&&) ===");
+        System.out.println("true && true = " + (true && true));
+        System.out.println("true && false = " + (true && false));
+        System.out.println("false && true = " + (false && true));
+        System.out.println("false && false = " + (false && false));
+        System.out.println();
 
-        else if (nota <7 && nota >= 5) {
-            System.out.println("Aluno de Recuperação com nota " + nota);
-        }
+        // OR (||)
+        System.out.println("=== OR (||) ===");
+        System.out.println("true || true = " + (true || true));
+        System.out.println("true || false = " + (true || false));
+        System.out.println("false || true = " + (false || true));
+        System.out.println("false || false = " + (false || false));
+        System.out.println();
 
-        else {
-            System.out.println("Aluno reprovado com nota " + nota);
-        }
+        // NOT (!)
+        System.out.println("=== NOT (!) ===");
+        System.out.println("!true = " + (!true));
+        System.out.println("!false = " + (!false));
 
     }
 }
