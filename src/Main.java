@@ -1,11 +1,13 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main (String[] args) {
+//public class Main {
+  //  public static void main (String[] args) {
 
-        String usuario = "admin";
-        String senha = "1234";
-        int tentativas = 3;
+        /*
+        ********TRABALHANDO COM IF/ELSE********
+        String usuario = "ad2min";
+        String senha = "12234";
+        int tentativas =4;
 
         if (tentativas >=3) {
             System.out.println("ACESSO BLOQUEADO POR EXCESSO DE TENTATIVAS");
@@ -27,7 +29,21 @@ public class Main {
             System.out.println("Usuário e Senha Incorretos. Tentativas: " + tentativas);
         }
 
-
-
     }
 }
+  */
+
+    //************LAÇOS DE REPETIÇÃO***************//
+
+    public class Main {
+    public static void main (String[] args) {
+
+      //  int i = 1; variável declarada fora do FOR, mas também pode ser declarada diretamente dentro do FOR, fazendo com que ela exista apenas dento do loop
+
+        for (i = 1; i <= 10; i++){
+            System.out.printf("Contagem da estrtura de repetição FOR, sendo esse o número: %d \n", i);
+        }
+
+        System.out.println("\nFim da Contagem!");
+    }
+    }
