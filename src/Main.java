@@ -35,10 +35,10 @@
 
     //************LAÇOS DE REPETIÇÃO***************//
 
-    public class Main {
+    /*public class Main {
     public static void main (String[] args) {
 
-      //  int i = 1; variável declarada fora do FOR, mas também pode ser declarada diretamente dentro do FOR, fazendo com que ela exista apenas dento do loop
+        int i = 1; variável declarada fora do FOR, mas também pode ser declarada diretamente dentro do FOR, fazendo com que ela exista apenas dento do loop
 
         for (i = 1; i <= 10; i++){
             System.out.printf("Contagem da estrtura de repetição FOR, sendo esse o número: %d \n", i);
@@ -47,3 +47,23 @@
         System.out.println("\nFim da Contagem!");
     }
     }
+
+    */
+
+public class Main {
+    public static void main (String[] args) {
+
+        System.out.println("********CONTADOR DE NÚMEROS PARES E ÍMPARES********");
+
+        for (int i = 0; i <= 20; i++){
+            if (i % 2 == 0){
+                System.out.printf("Contagem de números, sendo esse o número: %d que é PAR ✅\n", i);
+            }
+
+            else {
+                System.out.printf("Contagem de números, sendo esse o número: %d que é ÍMPAR ✅\n", i);
+            }
+        }
+        System.out.println("\nFim da contagem de números");
+    }
+}
