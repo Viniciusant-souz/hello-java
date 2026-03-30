@@ -50,7 +50,7 @@
 
     */
 
-public class Main {
+/*public class Main {
     public static void main (String[] args) {
 
         System.out.println("********CONTADOR DE NÚMEROS PARES E ÍMPARES********");
@@ -67,3 +67,21 @@ public class Main {
         System.out.println("\nFim da contagem de números");
     }
 }
+
+ */
+
+public class Main {
+    public static void main(String[] args) {
+        int i = 20;
+
+        System.out.println("Início do Contador");
+
+        while (i >= 0) {
+            System.out.println("Número: " + i);
+            i-=2; //Esse incremento significa que ele pega o valor de i de subtrai 2 sempre... 20, 18, 16... até 0
+        }
+
+        System.out.println("Fim do Contador");
+    }
+}
+
