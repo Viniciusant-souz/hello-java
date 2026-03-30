@@ -23,7 +23,7 @@
     }
 }
 
- */
+
 
 
 public class exercicioForEWhile {
@@ -42,5 +42,47 @@ public class exercicioForEWhile {
                 cs++;
             }
         }
+    }
+}
+
+
+    public class exercicioForEWhile {
+
+        public static void main(String[] args) {
+
+            int i = 10;
+
+            while (i <= 5) {
+                System.out.println("While");
+                i++;
+            }
+
+            do {
+                System.out.println("Do While que foi inicializado em: " + i);
+                i++;
+            }
+            while (i <= 5);
+
+        }
+
+        }
+ */
+
+
+public class exercicioForEWhile {
+
+    public static void main(String[] args) {
+
+        int i = 10;
+
+        do {
+            System.out.println("Número: " + i);
+            i++;
+        }
+            while (i <= 15);
+
+        System.out.println("Fim da contagem!");
+
+
     }
 }
